@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Gwalia Records
+    </title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    font-family: sans-serif;
+}
+
+a{
+    color: #333;
+    text-decoration: none;
+}
+
+h3{
+    padding-bottom: 20px;
+}
+
+p{
+    margin: 10px 0;
+}
+
+#bosh-sahifa{
+background-color: #333;
+color: #fff;
+overflow: auto;
+position: sticky;
+}
+
+#bosh-sahifa  a{
+color: #fff;
+
+}
+
+#bosh-sahifa h3{
+float: left;
+padding-top: 20px;
+}
+
+#bosh-sahifa ul{
+    float: right;
+    list-style: none;
+}
+
+#bosh-sahifa ul li{
+    float: left;
+}
+
+#bosh-sahifa ul li a{
+    display: inline-block;
+    padding: 20px;
+    padding-left: 25px;
+}
+
+#bosh-sahifa ul li a:hover{
+background-color: #444;
+color: #f7c08a;
+}
+
+.card{
+    max-width: 1330px;
+    margin: auto;
+    padding: 1px;
+}
+p{
+    color:black;
+}
+#showcase{
+background-image:url(./RT81P-Launch-Desktop.webp);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+height: 600px;
+}
+.as{
+    width: 1200px;
+    height: 1800px;
+}
+
+#showcase .showcase-content{
+align-items: center;
+color: #000;
+padding-top: 190px;
+}
+
+#showcase h3{
+    font-size: 50px;
+}
+
+#showcase p{
+    padding-bottom: 20px;
+    font-size: 20px;
+    color: #000;
+}
+
+button{
+    width: 130px;
+    height: 46px;
+    background-color:  blue;
+    border: none;
+    border-radius: 2px;
+    font-size: 19px;
+    color: black;
+    font-weight: 600;   
+}
+
+button:hover{
+    transition: 1s;
+    background-color: aqua;
+    box-shadow: 3px 1px 3px #222;
+    color: red;
+    border-radius: 12px;
+}
+
+.showcase-content{
+    margin-left: 90px;
+}
+samp{
+    color: aqua;
+}
+
+#sahifa{
+    height: 400px;
+}
+span{
+    color: rgb(8, 3, 174);
+}
+#sahifa .img{
+    float: left;
+    width: 50%;
+    height: 100%;
+    /* background-image: url('./Turntables-Guide.webp'); */
+}
+
+#sahifa .sahifa-2{
+    color: #fff;
+    float: right;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    padding: 50px 30px;
+}
+#pp{
+    color: #fff;
+    font-size: 18px;
+}
+.dark{
+    background-color: #222;
+}
+#btn{
+    margin-left: 250px;
+    background-color: rgb(23, 232, 3);
+}
+
+#sahifa-3{
+    width: 1448px;
+    height: 316px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+iframe{
+    width: 725px;
+    height:400px;
+}
+#cd{
+    background-color: #0626f6;
+}
+h1{
+    margin-left: 500px;
+}
+input{
+    width: 450px;
+    height: 36px;
+    margin-left: 260px;
+    margin-top: 17px;
+    border: none;
+    border-radius: 4px;
+    /* background-color: #f8ede2; */
+}
+.id{
+    width: 100%;
+    height: 303px;
+    background-color: #555;
+}
+.oxirgi{
+    width: 100%;
+    height: 60px;
+    background-color: #333;
+
+}
+h4{
+    color: black;
+    padding-top: 23px;
+    padding-left: 600px;
+}
+.area{
+    margin-top: -180px;
+    margin-left: 850px;
+}
+h3{
+    margin-left: 10px;
+}
+.www{
+    font-size: 23px;
+    margin-left: 130px;
+    
+}
+.www, area{
+    color: #fff;
+}
+
+    </style>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+    <nav id="bosh-sahifa">
+        
+        <div class="card">
+            
+            <h3 class="icon"> <img src="./vinyl-record.png" width="28px" height="19px">
+                Gwalia Records</h3><input type="" placeholder="Search">
+            <ul>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div id="showcase">
+        <div class="card">
+            <div class="showcase-content">
+                <h3>Gwalia Records</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Quae facere alias sapiente inventore quam
+                 sequi, molestiae illo animi, consectetur <br> mollitia impedit tempora neque adipisci modi repellat aperiam <br>itaque perspiciatis voluptatem?</p>
+            <a href="./home.html"> <button>About Us</button></a>
+            </div>
+        </div>
+    </div>
+</header>
+<br><br>
+<br>
+<section id="sahifa" class="dark">
+<div class="img"><iframe width="853" height="480" src="https://www.youtube.com/embed/U1eUg5Yk-gk" title="C100A Turntable | Crosley Record Player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+<div class="sahifa-2">
+    <h2><span>Online </span> disc shop</h2><br>
+    <p id="pp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia culpa quis cum, repellat, esse quasi alias dolorem
+         numquam nam et voluptatibus qui. Nostrum consequuntur ea magni fuga 
+         soluta aliquam, quaerat nulla, laudantium, id ipsa dolorum! Molestias quam animi dolore quod?
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid iste debitis accusantium! Accusantium repellendus similique numquam. Praesentium dolores non modi.
+       </p>
+       <br>
+<a href="./about.html"><button id="btn">Read more</button></a>
+        </div>
+    </section>
+        <div id="cd">
+        <br><h1>Eng ko'p sotiladigan albomlar</h1><br>
+        </div>
+
+<div id="sahifa-3">
+    <img src="./RT85NPA10VB52RW03-GIVEAWAY-revslider-background.webp" style="height: 340px;">
+    <img src="./Turntables-Guide.webp" style="height: 340px;">
+    <img src="./istockphoto-485374056-612x612.jpg" style="height: 340px; width: 430px;">
+</div><br><br> <hr>
+<div class="id">
+    <div class="www"><br><br>   
+        <h3>About</h3><br>
+Gwalia Records<br>
+Uzbekistan Toshkent<br>
+gmail. akobirbaratov@gmail.com<br>
+(+971) 566780104<br>
+
+
+
+<div class="area">
+    <h3>Our services</h3><br>
+Gwalia Records<br>
+Uzbekistan Toshkent<br>
+gmail. akobirbaratov@gmail.com<br>
+(+971) 566780104<br>
+</div>
+    </div>
+    
+</div>
+
+<div class="oxirgi"><h4>gmail.  akobirbaratov@gmail.com</h4></div>
+</body>
+</html>
