@@ -1,1 +1,1 @@
-# dastur
+sell discs online
